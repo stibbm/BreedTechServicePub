@@ -19,7 +19,7 @@ import static breed.tech.service.constants.Constants.GSON;
 @Slf4j
 public class AuthTokenManager {
 
-    public static final Integer RETRY_COUNT_MAX = 5;
+    public static final Integer RETRY_COUNT_MAX = 20;
     private AuthTokenGenerator authTokenGenerator;
     private AuthTokenRepository authTokenRepository;
     private TimeUtility timeUtility;
@@ -72,6 +72,10 @@ public class AuthTokenManager {
                 e.printStackTrace();
                 log.info("failed to generate a unique auth token");
                 System.out.println("failed to generate a unique auth token");
+            }
+            if (i == RETRY_COUNT_MAX-1) {
+                throw new RuntimeException("Hit max retry count when attempting to generate a auth token, " +
+                        "dev needs to look into this to see why");
             }
         }
         return uniqueAuthToken;
