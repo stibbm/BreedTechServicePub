@@ -1,90 +1,90 @@
 plugins {
-	id 'org.springframework.boot' version '2.7.0'
-	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-	id 'java'
-	id 'idea'
-	id 'eclipse'
-	id 'io.freefair.lombok' version '6.4.3'
-	id 'com.github.johnrengelman.shadow' version '7.1.2'
-	id 'java-library'
-	id 'maven-publish'
-	id 'com.adarshr.test-logger' version '3.2.0'
+    id 'org.springframework.boot' version '2.7.0'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+    id 'io.freefair.lombok' version '6.4.3'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+    id 'java-library'
+    id 'maven-publish'
+    id 'com.adarshr.test-logger' version '3.2.0'
 }
 
 java {
-	withSourcesJar()
-	toolchain {
-		languageVersion = JavaLanguageVersion.of(11)
-	}
+    withSourcesJar()
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
 }
 eclipse {
-	classpath {
-		downloadSources = true
-		downloadJavadoc = true
-	}
+    classpath {
+        downloadSources = true
+        downloadJavadoc = true
+    }
 }
 idea {
-	module {
-		downloadJavadoc = false
-		downloadSources = true
-	}
+    module {
+        downloadJavadoc = false
+        downloadSources = true
+    }
 }
 
 configurations {
-	compileOnly {
-		extendsFrom annotationProcessor
-	}
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
 }
 
 compileJava {
-	options.release = 11
+    options.release = 11
 }
 
 jar {
-	manifest {
-		attributes 'Main-Class': 'breed.tech.service.BreedTechServiceApplication'
-	}
+    manifest {
+        attributes 'Main-Class': 'breed.tech.service.BreedTechServiceApplication'
+    }
 }
 
 group = 'breed.tech.service'
 version = '1.08'
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 dependencies {
-	implementation 'com.amazonaws:aws-java-sdk-s3:1.12.301'
-	implementation 'software.amazon.awssdk:sesv2:2.17.248'
-	implementation 'software.amazon.awssdk:secretsmanager:2.17.248'
-	testImplementation 'junit:junit:4.13.2'
-	testImplementation 'org.mockito:mockito-all:1.10.19'
-	testImplementation 'org.assertj:assertj-core:3.22.0'
-	implementation 'com.google.code.gson:gson:2.9.0'
-	implementation 'com.google.guava:guava:31.1-jre'
-	implementation 'com.google.inject:guice:5.1.0'
-	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
-	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework:spring-aop:5.3.20'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	implementation 'mysql:mysql-connector-java'
-	implementation 'software.amazon.awssdk:cloudwatch:2.17.248'
-	implementation 'software.amazon.awssdk:cloudwatchlogs:2.17.248'
-	implementation 'org.springframework.boot:spring-boot-configuration-processor'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'org.reflections:reflections:0.10.2'
-	implementation 'org.apache.commons:commons-lang3:3.12.0'
-	implementation 'org.mindrot:jbcrypt:0.4'
-	implementation 'org.slf4j:slf4j-api:1.7.36'
-	compileOnly 'org.projectlombok:lombok:1.18.24'
-	annotationProcessor 'org.projectlombok:lombok:1.18.24'
-	testCompileOnly 'org.projectlombok:lombok:1.18.24'
-	testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
-	implementation 'com.intuit.quickbooks-online:ipp-v3-java-data:6.2.2'
-	implementation 'com.intuit.quickbooks-online:ipp-v3-java-devkit:6.2.2'
-	implementation 'com.intuit.quickbooks-online:oauth2-platform-api:6.2.2'
-	implementation 'com.twilio.sdk:twilio:9.0.1'
-	implementation 'com.stripe:stripe-java:21.12.0'
+    implementation 'com.amazonaws:aws-java-sdk-s3:1.12.301'
+    implementation 'software.amazon.awssdk:sesv2:2.17.248'
+    implementation 'software.amazon.awssdk:secretsmanager:2.17.248'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.mockito:mockito-all:1.10.19'
+    testImplementation 'org.assertj:assertj-core:3.22.0'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.google.guava:guava:31.1-jre'
+    implementation 'com.google.inject:guice:5.1.0'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework:spring-aop:5.3.20'
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    implementation 'mysql:mysql-connector-java'
+    implementation 'software.amazon.awssdk:cloudwatch:2.17.248'
+    implementation 'software.amazon.awssdk:cloudwatchlogs:2.17.248'
+    implementation 'org.springframework.boot:spring-boot-configuration-processor'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation 'org.reflections:reflections:0.10.2'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+    implementation 'org.mindrot:jbcrypt:0.4'
+    implementation 'org.slf4j:slf4j-api:1.7.36'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    testCompileOnly 'org.projectlombok:lombok:1.18.24'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
+    implementation 'com.intuit.quickbooks-online:ipp-v3-java-data:6.2.2'
+    implementation 'com.intuit.quickbooks-online:ipp-v3-java-devkit:6.2.2'
+    implementation 'com.intuit.quickbooks-online:oauth2-platform-api:6.2.2'
+    implementation 'com.twilio.sdk:twilio:9.0.1'
+    implementation 'com.stripe:stripe-java:21.12.0'
     implementation 'org.ghost4j:ghost4j:1.0.0'
     implementation 'org.apache.pdfbox:pdfbox:2.0.1'
 }
