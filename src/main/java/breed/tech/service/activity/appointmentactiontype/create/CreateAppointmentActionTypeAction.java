@@ -1,7 +1,7 @@
-package breed.tech.service.activity.appointmentactiontype;
+package breed.tech.service.activity.appointmentactiontype.create;
 
-import breed.tech.service.activity.appointmentactiontype.message.CreateAppointmentActionTypeRequest;
-import breed.tech.service.activity.appointmentactiontype.message.CreateAppointmentActionTypeResponse;
+import breed.tech.service.activity.appointmentactiontype.create.message.CreateAppointmentActionTypeRequest;
+import breed.tech.service.activity.appointmentactiontype.create.message.CreateAppointmentActionTypeResponse;
 import breed.tech.service.constants.CustomHttpHeaders;
 import breed.tech.service.constants.Routes;
 import breed.tech.service.manager.UserManager;

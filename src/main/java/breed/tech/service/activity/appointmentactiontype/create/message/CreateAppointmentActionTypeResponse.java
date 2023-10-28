@@ -1,4 +1,4 @@
-package breed.tech.service.activity.appointmentactiontype.message;
+package breed.tech.service.activity.appointmentactiontype.create.message;
 
 import breed.tech.service.model.AppointmentActionType;
 import lombok.AllArgsConstructor;
