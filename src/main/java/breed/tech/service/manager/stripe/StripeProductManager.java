@@ -4,11 +4,7 @@ import com.stripe.Stripe;
 import com.stripe.exception.StripeException;
 import com.stripe.model.Product;
 import com.stripe.param.ProductCreateParams;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.HashMap;
-import java.util.Map;
 
 import static breed.tech.service.constants.Constants.STRIPE_SECRET_KEY;
 
