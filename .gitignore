@@ -41,3 +41,5 @@ out/
 
 ### credentials
 gradle.properties
+
+.DS_Store
