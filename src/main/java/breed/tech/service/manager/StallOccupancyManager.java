@@ -1,6 +1,5 @@
 package breed.tech.service.manager;
 
-import breed.tech.service.manager.UserManager;
 import breed.tech.service.model.Horse;
 import breed.tech.service.model.HorseLocation;
 import breed.tech.service.model.Stall;
@@ -53,7 +52,6 @@ public class StallOccupancyManager {
     }
 
     public List<StallOccupancy> getAllStallOccupancies() {
-        // List<StallOccupancy> stallOccupanciesList = new ArrayList<>();
         Iterable<Stall> stallsIterable = this.stallRepository.findAll();
         List<Stall> stallsList = new ArrayList<>();
         for (Stall stall : stallsIterable) {

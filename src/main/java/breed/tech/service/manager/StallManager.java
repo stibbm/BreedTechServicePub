@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import lombok.extern.slf4j.Slf4j;
-import nondbmodel.StallOccupancy;
 import org.apache.commons.lang3.Validate;
 import org.springframework.stereotype.Service;
 
@@ -51,15 +50,6 @@ public class StallManager {
             }
         }
         return emptyStallsList;
-    }
-
-    public List<StallOccupancy> getEmptyStallsOccupancy() {
-        List<Stall> stallsList = getAllStalls();
-        List<StallOccupancy> emptyStallOccupanciesList = new ArrayList<>();
-        for (Stall stall : stallsList) {
-            return null;
-        }
-        return null;
     }
 
     public Stall createStall(
