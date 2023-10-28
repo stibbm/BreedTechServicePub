@@ -19,6 +19,7 @@ public class Constants {
 
     public static final String TWILIO_ACCOUNT_SID = "<twilio-account-sid>";
     public static final String TWILIO_AUTH_TOKEN = "<twilio-auth-token>";
+    public static final String STRIPE_SECRET_KEY = "<stripe-secret-key";
 
     public static final String SOURCE_TWILIO_PHONE_NUMBER = "<twilio-source-phone-number>";
     public static final Long AUTH_TOKEN_TIMEOUT_SECONDS = 60L * 60L * 24 * 7;
