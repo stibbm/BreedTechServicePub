@@ -19,7 +19,7 @@ import static breed.tech.service.constants.Constants.GSON;
 @Slf4j
 public class AuthTokenManager {
 
-    public static final Integer RETRY_COUNT_MAX = 10000000;
+    public static final Integer RETRY_COUNT_MAX = 5;
     private AuthTokenGenerator authTokenGenerator;
     private AuthTokenRepository authTokenRepository;
     private TimeUtility timeUtility;
