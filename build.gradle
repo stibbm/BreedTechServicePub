@@ -67,7 +67,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework:spring-aop:5.3.20'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
-    implementation 'mysql:mysql-connector-java'
+    implementation 'mysql:mysql-connector-java:8.0.23'
     implementation 'software.amazon.awssdk:cloudwatch:2.17.248'
     implementation 'software.amazon.awssdk:cloudwatchlogs:2.17.248'
     implementation 'org.springframework.boot:spring-boot-configuration-processor'
@@ -86,5 +86,10 @@ dependencies {
     implementation 'com.twilio.sdk:twilio:9.0.1'
     implementation 'com.stripe:stripe-java:21.12.0'
     implementation 'org.ghost4j:ghost4j:1.0.0'
+    // https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox
     implementation 'org.apache.pdfbox:pdfbox:2.0.1'
+    implementation 'javassist:javassist:3.12.1.GA'
+    // https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.13.0'
 }
