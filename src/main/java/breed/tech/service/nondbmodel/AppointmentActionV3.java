@@ -1,4 +1,4 @@
-package nondbmodel;
+package breed.tech.service.nondbmodel;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

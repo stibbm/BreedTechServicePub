@@ -15,7 +15,7 @@ import breed.tech.service.repository.AppointmentActionRepository;
 import breed.tech.service.repository.AppointmentActionTypeRepository;
 import breed.tech.service.repository.AppointmentRepository;
 import lombok.extern.slf4j.Slf4j;
-import nondbmodel.AppointmentActionV3;
+import breed.tech.service.nondbmodel.AppointmentActionV3;
 import org.apache.commons.lang3.Validate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

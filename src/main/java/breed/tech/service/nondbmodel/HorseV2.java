@@ -1,4 +1,4 @@
-package nondbmodel;
+package breed.tech.service.nondbmodel;
 
 import breed.tech.service.model.User;
 import lombok.AllArgsConstructor;

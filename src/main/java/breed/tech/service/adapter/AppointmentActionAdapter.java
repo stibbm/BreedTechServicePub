@@ -6,7 +6,7 @@ import breed.tech.service.model.Appointment;
 import breed.tech.service.model.AppointmentAction;
 import breed.tech.service.model.User;
 import lombok.extern.slf4j.Slf4j;
-import nondbmodel.AppointmentActionV3;
+import breed.tech.service.nondbmodel.AppointmentActionV3;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

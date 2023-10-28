@@ -4,7 +4,7 @@ import breed.tech.service.activity.user.get.message.GetUserByIdRequest;
 import breed.tech.service.model.*;
 import breed.tech.service.repository.HorseRepository;
 import lombok.extern.slf4j.Slf4j;
-import nondbmodel.HorseV2;
+import breed.tech.service.nondbmodel.HorseV2;
 import org.apache.commons.lang3.Validate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
