@@ -1,66 +1,66 @@
 
 
-With frontend v1: 
+# Frontend V1: 
 
-Horse Management:
+## Horse Management:
 
-Horses Page
+### Horses Page
 
 ![HorsesListPage.png](frontendv1-images%2FV1%2FHorse%2FHorsesListPage.png)
 
-Horse Details Page
+### Horse Details Page
 
 ![HorseDetailsPage.png](frontendv1-images%2FV1%2FHorse%2FHorseDetailsPage.png)
 
-Horse Creation Page
+### Horse Creation Page
 
 ![CreateHorsePage.png](frontendv1-images%2FV1%2FHorse%2FCreateHorsePage.png)
 
 
 
-Appointment Management:
+## Appointment Management:
 
-Appointments Page:
+### Appointments Page:
 
 ![AppointmentsListPage.png](frontendv1-images%2FV1%2FAppointment%2FAppointmentsListPage.png)
 
 
-Appointment Details Page:
+### Appointment Details Page:
 
 ![AppointmentDetailsPage.png](frontendv1-images%2FV1%2FAppointment%2FAppointmentDetailsPage.png)
 
-Appointment Creation Page
+### Appointment Creation Page
 
 ![CreateAppointmentPage.png](frontendv1-images%2FV1%2FAppointment%2FCreateAppointmentPage.png)
 
 
 
-Stall Management:
+## Stall Management:
 
-Stalls Page:
+#### Stalls Page:
 
 ![StallsList.png](frontendv1-images%2FV1%2FStall%2FStallsList.png)
 
 
-Stall Details Page:
+### Stall Details Page:
 
 ![StallDetails.png](frontendv1-images%2FV1%2FStall%2FStallDetails.png)
 
 
-Stalls List Page:
+### Stalls List Page:
 
 ![StallsList.png](frontendv1-images%2FV1%2FStall%2FStallsList.png)
 
 
 
-Action Type Management:
+## Action Type Management:
 
-Action Types Page:
+### Action Types Page:
 
 ![ActionTypesList.png](frontendv1-images%2FV1%2FActionTypes%2FActionTypesList.png)
 
 
-Action Type Creation:
+### Action Type Creation:
 
 ![CreateActionType.png](frontendv1-images%2FV1%2FActionTypes%2FCreateActionType.png)
 
