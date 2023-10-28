@@ -1,4 +1,10 @@
+# Service Functionality
 
+* Save horse and owner information
+* Track appointment creation + status + events
+* Track pricing events for appointment
+* Send text notifications for specified events to customers with text content specified in the action type (Texts are sent through twilio)
+* Stall occupants and stall capacity tracking
 
 # Frontend V1: 
 
