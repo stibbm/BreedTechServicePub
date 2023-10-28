@@ -17,6 +17,10 @@ public class Constants {
     public static final String LOG_STREAM = "<aws-log-stream>";
     public static final String LOG_GROUP = "<aws-log-group";
 
+    public static final String TWILIO_ACCOUNT_SID = "<twilio-account-sid>";
+    public static final String TWILIO_AUTH_TOKEN = "<twilio-auth-token>";
+
+    public static final String SOURCE_TWILIO_PHONE_NUMBER = "<twilio-source-phone-number>";
     public static final Long AUTH_TOKEN_TIMEOUT_SECONDS = 60L * 60L * 24 * 7;
 
 }
