@@ -29,13 +29,9 @@
 
 ![AppointmentDetailsPage.png](frontendv1-images%2FV1%2FAppointment%2FAppointmentDetailsPage.png)
 
-### Appointment Creation Page
-
-![CreateAppointmentPage.png](frontendv1-images%2FV1%2FAppointment%2FCreateAppointmentPage.png)
-
 ### Create Appointment
 
-![CreateAppointment.png](frontendv2-images%2FV2%2FAppointment%2FCreateAppointment.png)
+![CreateAppointmentPage.png](frontendv1-images%2FV1%2FAppointment%2FCreateAppointmentPage.png)
 
 ## Stall Management:
 
