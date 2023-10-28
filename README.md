@@ -72,76 +72,76 @@
 
 ### Horses Page
 
-![HorsesList.png](frontendv2-images%2FV2%2FHorse%2FHorsesList.png)
+<img src="frontendv2-images%2FV2%2FHorse%2FHorsesList.png" width="500">
 
 ### Move Horse
-![MoveHorse4.png](frontendv2-images%2FV2%2FHorse%2FMoveHorse4.png)
-![MoveHorse.png](frontendv2-images%2FV2%2FHorse%2FMoveHorse.png)
-![MoveHorse2.png](frontendv2-images%2FV2%2FHorse%2FMoveHorse2.png)
-![MoveHorse3.png](frontendv2-images%2FV2%2FHorse%2FMoveHorse3.png)
+<img src="frontendv2-images%2FV2%2FHorse%2FMoveHorse4.png" width="500">
+<img src="frontendv2-images%2FV2%2FHorse%2FMoveHorse.png" width="500">
+<img src="frontendv2-images%2FV2%2FHorse%2FMoveHorse2.png" width="500">
+<img src="frontendv2-images%2FV2%2FHorse%2FMoveHorse3.png" width="500">
 
 ### Create Horse
 
-![CreateHorse.png](frontendv2-images%2FV2%2FHorse%2FCreateHorse.png)
-![CreateHorse2.png](frontendv2-images%2FV2%2FHorse%2FCreateHorse2.png)
+<img src="frontendv2-images%2FV2%2FHorse%2FCreateHorse.png" width="500">
+<img src="frontendv2-images%2FV2%2FHorse%2FCreateHorse2.png" width="500">
 
 ### Horse Details
 
-![HorseDetails.png](frontendv2-images%2FV2%2FHorse%2FHorseDetails.png)
+<img src="frontendv2-images%2FV2%2FHorse%2FHorseDetails.png" width="500">
 
 ## Appointment Management
 
 ### Appointment Details
-![AppointmentDetails.png](frontendv2-images%2FV2%2FAppointment%2FAppointmentDetails.png)
+
+<img src="frontendv2-images%2FV2%2FAppointment%2FAppointmentDetails.png" width="500">
 
 ### Appointments Page
-![CreateAppointment.png](frontendv2-images%2FV2%2FAppointment%2FCreateAppointment.png)
 
+<img src="frontendv2-images%2FV2%2FAppointment%2FCreateAppointment.png" width="500">
 
 ## Stall Management
 
 ### Create Stall
-![CreateStall.png](frontendv2-images%2FV2%2FStalls%2FCreateStall.png)
+
+<img src="frontendv2-images%2FV2%2FStalls%2FCreateStall.png" width="500">
 
 
 ### StallDetails
-![StallDetails.png](frontendv2-images%2FV2%2FStalls%2FStallDetails.png)
+<img src="frontendv2-images%2FV2%2FStalls%2FStallDetails.png" width="500">
 
 ### Stalls List
-![StallsList.png](frontendv2-images%2FV2%2FStalls%2FStallsList.png)
-
-
-
+<img src="frontendv2-images%2FV2%2FStalls%2FStallsList.png" width="500">
 
 
 ## Action Type Management
 
 ### Action Type Detaiils
 
-![ActionTypeDetails.png](frontendv2-images%2FV2%2FActionType%2FActionTypeDetails.png)
+<img src="frontendv2-images%2FV2%2FActionType%2FActionTypeDetails.png" width="500">
 
 
-### Action Types List 
-![ActionTypesList.png](frontendv2-images%2FV2%2FActionType%2FActionTypesList.png)
+### Action Types List
+
+<img src="frontendv2-images%2FV2%2FActionType%2FActionTypesList.png" width="500">
 
 ### CreateActionType
-![CreateActionType.png](frontendv2-images%2FV2%2FActionType%2FCreateActionType.png)
+
+<img src="frontendv2-images%2FV2%2FActionType%2FCreateActionType.png" width="500">
 
 
 ### Users Management
 
 ### UsersList
-![Users.png](frontendv2-images%2FV2%2FUsers%2FUsers.png)
 
+<img src="frontendv2-images%2FV2%2FUsers%2FUsers.png" width="500">
 
 ## SideMenu
 
-### ![SideMenu.png](frontendv2-images%2FV2%2FSideMenu%2FSideMenu.png)
+<img src="frontendv2-images%2FV2%2FSideMenu%2FSideMenu.png" width="500">
 
 ## Login Page
 
-### Login Page
-![LoginPageV2.png](frontendv2-images%2FV2%2FLogin%2FLoginPageV2.png)
+<img src="frontendv2-images%2FV2%2FLogin%2FLoginPageV2.png" width="500">
 
 
 
