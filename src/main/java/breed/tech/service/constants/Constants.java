@@ -17,4 +17,6 @@ public class Constants {
     public static final String LOG_STREAM = "<aws-log-stream>";
     public static final String LOG_GROUP = "<aws-log-group";
 
+    public static final Long AUTH_TOKEN_TIMEOUT_SECONDS = 60L * 60L * 24 * 7;
+
 }
