@@ -14,7 +14,7 @@ plugins {
 java {
     withSourcesJar()
     toolchain {
-        languageVersion = JavaLanguageVersion.of(11)
+        languageVersion = JavaLanguageVersion.of(17)
     }
 }
 eclipse {
@@ -37,7 +37,7 @@ configurations {
 }
 
 compileJava {
-    options.release = 11
+    options.release = 17
 }
 
 jar {
@@ -89,6 +89,7 @@ dependencies {
     // https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox
     implementation 'org.apache.pdfbox:pdfbox:2.0.1'
     implementation 'javassist:javassist:3.12.1.GA'
+    implementation 'com.google.code.gson:gson:2.9.0'
     // https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
     implementation 'javax.persistence:javax.persistence-api:2.2'
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.13.0'
