@@ -6,7 +6,8 @@
 * Send text notifications for specified events to customers with text content specified in the action type (Texts are sent through twilio)
 * Stall occupants and stall capacity tracking
 
-# Frontend V1: https://github.com/stibbm/BreedTechClientPublic
+# Frontend V1: 
+https://github.com/stibbm/BreedTechClientPublic
 
 ## Horse Management:
 
@@ -72,7 +73,8 @@
 
 <img src="frontendv1-images%2FV1%2FUsers%2FUserDetails.png" width="500">
 
-# Frontend V2 Images: https://github.com/stibbm/BreedTechClientV2Public/tree/master
+# Frontend V2 Images: 
+https://github.com/stibbm/BreedTechClientV2Public/tree/master
 
 ## Horse Management
 
